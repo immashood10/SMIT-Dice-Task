@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <img id="diceImage" onclick="diceClick()" src="images/HD-wallpaper-red-dice-black-colors-light-neon-thumbnail.jpg" alt="Dice" height="500" width="400">
+    </div>
+    <br />
+    <div class="container2">
+    <button onclick="diceScroll(1)">1</button>
+    <button onclick="diceScroll(2)">2</button>
+    <button onclick="diceScroll(3)">3</button>
+    <button onclick="diceScroll(4)">4</button>
+    <button onclick="diceScroll(5)">5</button>
+    <button onclick="diceScroll(6)">6</button>
+</div>
+<p>Attempt : <span id="attempt"></span></p>
+
+<p>Correct : <span id="correct"></span></p>
+
+<p>Percentage : <span id="percentage"></span> %</p>
+
+<script src="script.js"></script>
+</body>
+</html>
